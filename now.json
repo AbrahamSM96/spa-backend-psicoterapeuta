@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "spa-backend-abrahamsm",
+  "builds": [{ "src": "./src/index.js", "use": "@now/node" }],
+  "routes": [
+    {
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept",
+        "Access-Control-Allow-Credentials": "true"
+      },
+      "src": "./src/.*",
+      "dest": "index.js"
+    }
+  ]
+}
