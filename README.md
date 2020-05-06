@@ -1,7 +1,6 @@
 # SPA-backend-Psicoterapeuta Magdalena Montiel ⚛️
 
-This repo only have an api for the SPA-frontend-psicoterapeuta to managment of
-the email with nodemailer.
+This repo only have an api for the SPA-frontend-psicoterapeuta to management of the email with nodemailer.
 
 ## Getting Started 🚀
 
